@@ -1,0 +1,59 @@
+  .slider-container{
+    padding: 2%;
+    background-color: #ededed;
+    margin:2%;
+    border-radius: 10px;
+  }
+  .targets{
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 2%;
+    border: 1px black ;
+    border-radius: 10px;
+    width: 90% !important;
+    height: 80%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  }
+  .description p{
+    opacity: 0;
+    padding: 2%;
+    margin-bottom: -40px;
+    transition: 1s;
+  }
+  .description{
+    border: 1px solid rgba(255, 255, 255, 0.913) ;
+    border-radius: 5px;
+    background-color: white;
+  }
+  .images{
+    width: 100% ;
+    height: 330px ;
+    margin-bottom: 3px;
+  }
+  .targets:hover > .description p{
+    opacity: 1;
+    transform: translateY(+10px);
+    transition: 1s;
+    margin-bottom: 15px;
+    
+  }
+  .centrado{
+    display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+} 
+
+.slick-prev::before{
+  color: black ;
+  font-size: 3rem ;
+}
+.slick-next::before{
+  color: black ;
+  font-size: 3rem ;
+}
+.slick-next{
+  margin-right: 2%;
+}
+  
