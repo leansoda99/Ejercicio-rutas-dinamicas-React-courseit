@@ -40,10 +40,6 @@ function Carousel(){
         const dataJson= await getData.json();
         setProduct(dataJson.results);
     }
-    console.log(Array.isArray(product));
-    console.log(typeof product);
-    console.log(product);
-    
     return(
         <>
         <Slider {...settings}>
